@@ -18,6 +18,20 @@
 		   #             4- Else, it just retruns the inverse matrix which then stored to the getmatinverse object
  		   
 
+### Testing :
+           # Here is one matrix provided as parameter to get its inverse with the help of below steps :
+		   #          x <- matrix(c(12,13,14,15),2,2)
+           #           > z <- makeCacheMatrix(x)
+           #           > cacheSolve(z)
+           #                 [,1] [,2]
+           #            [1,] -7.5    7
+           #            [2,]  6.5   -6
+           #           > cacheSolve(z)
+           #             fetch the cached data...
+           #                 [,1] [,2]
+           #            [1,] -7.5    7
+           #            [2,]  6.5   -6
+
 ##==================================================================================================================================================================================================================
 		   
 ## Write a short comment describing this function
